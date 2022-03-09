@@ -1,0 +1,7 @@
+{"level":"debug","message":"debug success","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"error","message":"error testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"http","message":"http testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"info","message":"info testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"silly","message":"silly testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"verbose","message":"verbose testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"warn","message":"warn testing","timestamp":"Mar-09-2022 17:17:08"}
