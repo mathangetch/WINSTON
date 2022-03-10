@@ -1,11 +1,23 @@
+const { json } = require("express/lib/response");
 const { createLogger, transports, format } = require("winston");
+const {combine,timestamp,printf,colorize}=format;
+
+const myFormat = printf( ({ level, message, timestamp , ...metadata}) => {
+  let msg = `${timestamp} [${level}] : ${message} `  
+  if(metadata) {
+	msg += JSON.stringify(metadata)
+  }
+  return msg
+});
+
 
 const logConfiguration = {
   transports: [
     new transports.File({
       filename: "./logs/error.log",
       level: "error",
-      format: format.combine(format.timestamp({format: 'MMM-DD-YYYY HH:mm:ss'}), format.json()),
+      format: format.combine(timestamp({format:'DD-MM-YYYY HH:MM:SS'}),myFormat ),
+
     }),
     new transports.File({
       filename: "./logs/warn.log",

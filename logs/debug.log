@@ -1,6 +1,7 @@
-{"level":"debug","message":"debug success","timestamp":"Mar-09-2022 17:17:08"}
-{"level":"error","message":"error testing","timestamp":"Mar-09-2022 17:17:08"}
-{"level":"http","message":"http testing","timestamp":"Mar-09-2022 17:17:08"}
-{"level":"info","message":"info testing","timestamp":"Mar-09-2022 17:17:08"}
-{"level":"verbose","message":"verbose testing","timestamp":"Mar-09-2022 17:17:08"}
-{"level":"warn","message":"warn testing","timestamp":"Mar-09-2022 17:17:08"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 11:41:32"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:01:54"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:21:19"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:29:05"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:34:43"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:37:01"}
+{"level":"error","message":"error testing","timestamp":"Mar-10-2022 18:40:41"}

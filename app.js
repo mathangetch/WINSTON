@@ -6,13 +6,14 @@ const port = 8080;
 
 // test api
 app.get("/test", (req, res) => {
-  log.logger.debug("debug success");
-  log.logger.error("error testing");
-  log.logger.http("http testing");
-  log.logger.info("info testing");
+  // log.logger.debug("debug success");
+   log.logger.error("error testing");
+  // log.logger.http("http testing");
+  // log.logger.info("info testing");
+  
+  // log.logger.verbose("verbose testing");
+  // log.logger.warn("warn testing");
   log.logger.silly("silly testing");
-  log.logger.verbose("verbose testing");
-  log.logger.warn("warn testing");
 
   res.send("testing success!!");
 });
